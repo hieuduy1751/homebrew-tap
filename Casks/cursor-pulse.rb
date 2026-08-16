@@ -15,7 +15,7 @@ cask "cursor-pulse" do
   desc "Ambient AI Agent Cursor Companion & State Tracker for macOS"
   homepage "https://github.com/hieuduy1751/cursor-pulse"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "CursorPulse.app"
 

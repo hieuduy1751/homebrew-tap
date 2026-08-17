@@ -19,6 +19,12 @@ cask "cursor-pulse" do
 
   app "CursorPulse.app"
 
+  caveats <<~EOS
+    If macOS blocks CursorPulse on first open (unnotarized app), run:
+      xattr -dr com.apple.quarantine /Applications/CursorPulse.app
+    Or allow it in System Settings > Privacy & Security.
+  EOS
+
   zap trash: [
     "~/.cursorpulse",
     "~/Library/Preferences/dev.cursorpulse.app.plist",

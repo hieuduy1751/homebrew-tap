@@ -1,13 +1,13 @@
 cask "cursor-pulse" do
-  version "0.2.1"
+  version "0.3.1"
 
   on_arm do
-    sha256 "7fb036d2fe298a9160c02e2deb4cc89f625c9a6a10994d4b0ef0ca58d9563d3e"
+    sha256 "194001e6cbc5aaaf9dfe3a6aea4733d35f2efc480a41721c84a2290f02f27ea8"
     url "https://github.com/hieuduy1751/cursor-pulse/releases/download/v#{version}/CursorPulse-v#{version}-mac-arm64.dmg"
   end
 
   on_intel do
-    sha256 "03a929b587a3faa904feb95731d0e5ddb922c490a3f17b619be01d2178a9c0e3"
+    sha256 "b26bb7b4c0b1b018d18bcbc10e43049f87263336dc45d1f57eafac4041cedbd5"
     url "https://github.com/hieuduy1751/cursor-pulse/releases/download/v#{version}/CursorPulse-v#{version}-mac-x64.dmg"
   end
 
